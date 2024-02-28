@@ -1,6 +1,3 @@
--- Database: exam1
-/*Script for Exam 1 Advanced Databases*/
-/*CREATE TABLE exam1*/
 
 /*FIRST PART OF THE EXAM*/
 CREATE SCHEMA IF NOT EXISTS pr_library;
@@ -285,10 +282,6 @@ FROM
     ) AS book_authors
 GROUP BY
     jsonb_data->>'title';
-
-/* MISSING LAST 2 QUERIES */
-
-/*c*/
 
 
 /*d*/
